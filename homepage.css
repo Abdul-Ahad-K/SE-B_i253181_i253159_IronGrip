@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+.logo {
+    width: 5%;
+    display: inline;
+    padding: 10px;
+}
+
+.title-logo {
+    display: inline;
+    font-family: "Anton SC", sans-serif;
+    color: white;
+}
+
+.header {
+    border: 3px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #E50914;
+}
