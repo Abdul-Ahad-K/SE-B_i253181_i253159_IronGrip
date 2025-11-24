@@ -1,43 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&display=swap");
 
 .logo {
-    width: 25%;
-    display: inline;
-    padding: 10px;
+  width: 25%;
+  display: inline;
+  padding: 10px;
 }
 
 .title-logo {
-    display: inline;
-    font-family: "Anton SC", sans-serif;
-    color: white;
+  display: inline;
+  font-family: "Anton SC", sans-serif;
+  color: white;
 }
 
 .wrap {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    max-width: 200px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  max-width: 200px;
 }
 
 .header {
-    border: 3px solid black;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #E50914;
-    flex-direction: row;
+  border: 3px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e50914;
+  flex-direction: row;
 }
 
 .search {
-    width: 4%;
-    display: inline;
-    padding-left: 5px;
-    padding-right: 5px;
+  width: 6%;
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .search-txt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.7);
+  max-width: 250px;
+  height: 35px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.navigation {
+  border: 3px solid black;
 }
