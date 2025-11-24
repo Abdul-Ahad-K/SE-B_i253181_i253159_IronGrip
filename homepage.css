@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
 
 .logo {
-    width: 5%;
+    width: 25%;
     display: inline;
     padding: 10px;
 }
@@ -12,11 +12,32 @@
     color: white;
 }
 
+.wrap {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    max-width: 200px;
+}
+
 .header {
     border: 3px solid black;
     border-radius: 5px;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
     background-color: #E50914;
+    flex-direction: row;
+}
+
+.search {
+    width: 4%;
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.search-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
