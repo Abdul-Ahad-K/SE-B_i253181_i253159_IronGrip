@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&display=swap");
+
+.logo {
+  width: 25%;
+  display: inline;
+  padding: 10px;
+}
+
+.title-logo {
+  display: inline;
+  font-family: "Anton SC", sans-serif;
+  color: white;
+}
+
+.wrap {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  max-width: 200px;
+}
+
+.header {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e50914;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.search {
+  width: 6%;
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.search-txt {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.7);
+  max-width: 250px;
+  height: 35px;
+  border-radius: 20px;
+  padding: 5px;
+  font-family: poppins;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+
+.navigation a {
+  font-size: 20px;
+  font-family: poppins, sans-serif;
+  text-decoration: none;
+  color: white;
+  width: 90px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.b1,
+.b2 {
+  width: 80%;
+  height: 30px;
+  margin: 5px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-family: "Anton SC", sans-serif;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+  height: 100%;
+  gap: 10px;
+}
+
+.b1:hover,
+.b2:hover {
+  background-color: rgb(230, 228, 228);
+}
+
+.navigation a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.grid1 {
+  display: flex;
+  flex-direction: column;
+  column-gap: 15px;
+  width: 50%;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.desc-wrap {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.title {
+  font-size: 50px;
+  font-family: Anton SC, sans-serif;
+  text-align: center;
+}
+.main-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.desc-wrap {
+  font-family: Poppins;
+}
+
+.d1 {
+  margin-right: 30px;
+}
+
+.subgrid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #d0cece;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 20px;
+  flex-grow: 1;
+}
+
+.handGrip {
+  width: 30%;
+  height: 70%;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.d3,
+.price {
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.d3 {
+  font-family: Anton SC;
+  font-size: 40px;
+  height: 20px;
+}
+
+.price {
+  font-family: Poppins, sans-serif;
+  font-size: 25px;
+  color: red;
+}
+
+.qty-control {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.qty-btn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qty-display {
+  width: 40px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.remove-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  margin-left: 15px;
+}
+
+.remove-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.buttons-qty {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.grid2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bill-sum {
+  text-align: center;
+  font-family: Anton SC;
+  font-size: 40px;
+}
+
+.subgrid2 {
+  background-color: #d0cece;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+  height: 390px;
+  font-size: 27px;
+  font-family: Poppins;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.sum1 {
+  height: 8px;
+}
+
+.checkout {
+  padding: 8px 15px;
+  background-color: #e50914;
+  border: 1px solid #ccc;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  margin-left: 15px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.SFL {
+  display: inline-block;
+  width: 30%;
+  background-color: rgb(216, 214, 214);
+  border: none;
+  height: 50px;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.continue {
+  display: inline-block;
+  width: 30%;
+  background-color: blue;
+  border: none;
+  margin-right: 25px;
+  height: 50px;
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  margin-left: 105px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wrap1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
